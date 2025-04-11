@@ -1,4 +1,4 @@
-
+import Form from "./Components/Form/form" 
 
 function App() {
 
@@ -6,6 +6,8 @@ function App() {
     <>
       <div>
         
+        <Form/>
+
       </div>
      
     </>
