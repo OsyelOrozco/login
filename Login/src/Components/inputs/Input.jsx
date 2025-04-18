@@ -1,9 +1,13 @@
-import React from 'react'
+import "./Input.css"
 
-const input = () => {
+const Input = () => {
   return (
-    <div>input</div>
+    <div className='inputs'>
+      <label htmlFor=""></label>
+      <input type="text" 
+      placeholder='Escribe tu nombre'/>
+    </div>
   )
 }
 
-export default input
+export default Input

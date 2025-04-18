@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:wght@400&family=Space+Mono:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
-  transition: background-color 0.5, color 0.5s;
-  color:rgb(35,35,85);
-  line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to bottom right, #e2e2e2, #f8f8f8);
+    transition: background-color 0.5s, color 0.5s;
+    color: rgb(35, 35, 85);
 }
