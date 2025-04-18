@@ -1,11 +1,13 @@
 import "./Input.css"
 
-const Input = () => {
+const Input = ({placeholder}) => {
+
+  const placeholderModificado = `${placeholder}...`;
   return (
     <div className='inputs'>
       <label htmlFor=""></label>
       <input type="text" 
-      placeholder='Escribe tu nombre'/>
+      placeholder={placeholderModificado}/>
     </div>
   )
 }

@@ -7,11 +7,10 @@ const Form = () => {
     <section className='register'>
         <form >
             <h3>Registro</h3>
-            <Input/>
-            <Input/>
-            <Input/>
-            <Input/>
-            <Input/>
+            <Input placeholder="Escribe tu nombre"/>
+            <Input placeholder="Escribe tu correo"/>
+            <Input placeholder="Escribe tu contraseña"/>
+            <Input placeholder="Confirma tu contraseña"/>
             <Boton/>
         </form>
     </section>
