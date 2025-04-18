@@ -1,13 +1,15 @@
 import "./Input.css"
 
-const Input = ({placeholder}) => {
+const Input = ({placeholder, type, required}) => {
 
   const placeholderModificado = `${placeholder}...`;
   return (
     <div className='inputs'>
       <label htmlFor=""></label>
-      <input type="text" 
-      placeholder={placeholderModificado}/>
+      <input
+      placeholder={placeholderModificado}
+      type = {type || "text"}
+      required = {required} />
     </div>
   )
 }
